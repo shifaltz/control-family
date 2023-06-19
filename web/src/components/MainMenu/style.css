@@ -1,0 +1,43 @@
+.main-menu{
+  width: 1200px;
+  height: 80px;
+  background-color: #DFDFDF;
+  border-radius: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+}
+
+.items-menu{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  margin-left: 80px;
+}
+
+.items-menu li:hover{
+  color: #00720B;
+  cursor: pointer;
+  
+}
+
+.perfil-user{
+  width: 70px;
+  height: 70px;
+  margin-right: 80px;
+  border-radius: 50%;
+  border: solid 1px #C7C7C7;
+}
+
+.perfil-user img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.perfil-user img:hover{
+  cursor: pointer;
+}

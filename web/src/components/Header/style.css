@@ -1,0 +1,10 @@
+.app-header {
+  height: 200px;
+  text-align: center;
+}
+
+.app-header .logo img{
+  height: 200px;
+  width: 200px;
+  mix-blend-mode: multiply;
+}

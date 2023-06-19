@@ -1,0 +1,65 @@
+.list-cards{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-credit{
+  width: 280px;
+  height: 180px;
+}
+
+.card-credit img{
+  width: 100%;
+}
+
+.card-info{
+  width: 750px;
+  height: 180px;
+  border: solid 1px #1d1d1d;
+  background-color: #DFDFDF;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+
+.card-info .infos{
+  width: 500px;
+  height: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-info .infos ul li{
+  margin-left: 30px;
+}
+
+.card-info .infos ul li span{
+  font-size: medium;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-info .infos ul li p{
+  font-size: medium;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.card-info .infos ul li + li{
+  margin-top: 10px;
+}
+
+.card-info .card-name{
+  width: 250px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+}

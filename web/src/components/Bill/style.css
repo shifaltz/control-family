@@ -1,0 +1,55 @@
+.list-debt{
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.total-value{
+  text-align: end;
+}
+
+.total-value span{
+  font-weight: bold;
+  font-size: large;
+}
+
+.total-value p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: small;
+}
+
+table{
+  border: 1px solid black;
+}
+
+tr th{
+  border-bottom: 1px solid black;
+  text-transform: capitalize;
+}
+
+table {
+  width: 1200px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td{
+padding: 10px;
+text-align: center;
+width: 120px;
+font-weight: 600;
+}
+
+th{
+font-weight: bold;
+}
+
+tr:nth-child(even) {
+background-color: #DFDFDF;
+}
+
+
+
